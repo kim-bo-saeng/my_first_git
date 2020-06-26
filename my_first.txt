@@ -1,0 +1,18 @@
+# 처음으로 git을 써서 만들어 보았다
+# 앞으로 잘됐으면 좋겠다
+# 나는 정말 멋진 사람이다
+
+# 1. git과 폴더 연결하기 : 개인 하드에 원하는곳에 폴더 생성후
+# 폴더 오른쪽 클릭하여 git bash 실행
+# git init
+# git remote add origin "나의git주소"
+# 위에서 "" 이건 실제로는 없는거니까 입력하지 말고 나의git주소만 입력
+
+# 2. 자료 올리기
+# push전에는 pull이 있다 : git에 자료를 올리고 당겨오고를 하는것
+# git pull origin master : 나의 연결된 깃에 자료 당겨오기
+# git status : 나의 폴더와 깃 repository에 연결 상태 확인하기
+# git add . : 뒤에 한칸띄고 . 을 붙이면 모든 변경된 자료 올리기가됨
+# git commit -m "메세지" : 나의 레포지토리에 자료 올릴때 메세지를 입력해서 올릴수 있음
+# git push origin master : 실제로 자료를 올리는 명령어
+
